@@ -19,7 +19,7 @@ You may also need to run the following command:
 source ~/.bashrc
 ```
 
-Once the installation is done, you should be able to use conda on your system. This "[Cheat sheet](https://docs.conda.io/projects/conda/en/stable/user-guide/cheatsheet.html)" page shows the main conda command. 
+Once the installation is done, you should be able to use conda on your system. This "[Cheat sheet](https://docs.conda.io/projects/conda/en/stable/user-guide/cheatsheet.html)" page shows the main conda commands. 
 
 To download a genome assembly FASTA file corresponding to an E. coli strain K-12, you can run the following command (using the accession number GCA_000005845.2 from [ENA](https://www.ebi.ac.uk/ena/browser/view/GCA_000005845) repository):
 ```bash
