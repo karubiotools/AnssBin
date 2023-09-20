@@ -21,7 +21,7 @@ source ~/.bashrc
 
 Once the installation is done, you should be able to use conda on your system.
 
-To download a genome assembly FASTA file corresponding to an E. coli strain K-12, you can run the following command (using the accession number GCA_000005845.2 from ENA repository):
+To download a genome assembly FASTA file corresponding to an E. coli strain K-12, you can run the following command (using the accession number GCA_000005845.2 from [ENA](https://www.ebi.ac.uk/ena/browser/view/GCA_000005845) repository):
 ```bash
 wget -O ecoli_sequence.fasta https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_000005845.2?download=true&gzip=true
 ```
