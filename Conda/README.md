@@ -21,9 +21,16 @@ source ~/.bashrc
 
 Once the installation is done, you should be able to use conda on your system. This "[Cheat sheet](https://docs.conda.io/projects/conda/en/stable/user-guide/cheatsheet.html)" page shows the main conda commands. 
 
-To download a genome assembly FASTA file corresponding to an E. coli strain K-12, you can run the following command (using the accession number GCA_000005845.2 from [ENA](https://www.ebi.ac.uk/ena/browser/view/GCA_000005845) repository):
+To download a genome assembly FASTA file corresponding to an E. coli strain, you can run the following command (using the accession number GCA_000005845.2 from [ENA](https://www.ebi.ac.uk/ena/browser/view/GCA_000005845) repository):
 ```bash
-wget -O ecoli_sequence.fasta https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_000005845.2?download=true&gzip=true
+curl https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCA_000005845.2/download?include_annotation_type=GENOME_FASTA --output genome_ecoli.fasta.zip
 ```
-
-
+or (using wget command)
+```bash
+wget -O genome_ecoli.fasta.zip https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCA_000005845.2/download?include_annotation_type=GENOME_FASTA
+```
+Then you must unzip the downloaded file as follows:
+```bash
+unzip genome_ecoli.fasta.zip
+```
+Note that your result folder will be named "ncbi_dataset".
