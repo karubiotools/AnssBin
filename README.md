@@ -4,3 +4,12 @@
 ![Logo AnssBin](/AnssBin_logo.png)
 
 The current repository provides access to some examples/tutorials (in English and/or French) that can be used as pedagogical tools to promote bioinformatics/biostatistics analysis.
+
+This directory is subdivided into several sections (folders) reflecting some of the main themes of our study. These sections are organized as follows:
+  - **Bash** (folder containing information on Linux/Unix command lines)
+  - **Blast** (folder containing BLAST software usage examples)
+  - **Conda** (folder containing Conda/Bioconda usage example)
+  - **Docker** (folder containing information on using Docker)
+  - **Galaxy_Wrapper** (folder containing information on setting up a tool on Galaxy)
+  - **SLURM** (folder containing information on using SLURM)
+  - **Virtual_Machine** (folder containing information on setting up a virtual machine)
