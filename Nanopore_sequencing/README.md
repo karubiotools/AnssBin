@@ -7,3 +7,6 @@ Some details about the sequencing method are available at this [link](https://na
 
 Several software tools have been developed to perform Oxford Nanopre Technologies (ONT) MinION sequencing. A presentation by Yann Reynaud was done in 2019 to explain [Bacterial sequencing on ONT Minion](http://www.pasteur-guadeloupe.fr/pdf/2019_ONT.pdf).
 
+Tools and tutorials can be easily found online, notably from the [ONT GitHub repository](https://github.com/nanoporetech).
+
+Furthermore, examples on using MinKNOW and PycoQC are available in the current folder.
