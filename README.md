@@ -11,5 +11,6 @@ This directory is subdivided into several sections (folders) reflecting some of 
   - **Conda** (folder containing Conda/Bioconda usage example)
   - **Docker** (folder containing information on using Docker)
   - **Galaxy_Wrapper** (folder containing information on setting up a tool on Galaxy)
+  - **Nanopore_sequencing** (folder containing examples of tools used for Nanopore sequencing, in particular MinION)
   - **SLURM** (folder containing information on using SLURM)
   - **Virtual_Machine** (folder containing information on setting up a virtual machine)
