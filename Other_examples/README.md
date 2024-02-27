@@ -13,5 +13,5 @@ A wide variety of bioinformatics tools can be used in bacterial genomics. The an
   `dragonflye --reads my-ont.fastq.gz --outdir dragonflye --gsize 5000000`
 - checking genome assembly quality using QUAST (once the assmebled genome files are available):
 
-  `for i in *.fasta; do quast -o $i.QUAST_RESULT -r RefSequenceEC.fasta -t 16  $i ; done`
+  `for i in *.fasta; do quast -o $i.QUAST_RESULT -r referenceSequence.fasta -t 16  $i ; done`
 - 
