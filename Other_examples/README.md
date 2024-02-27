@@ -9,4 +9,6 @@ A wide variety of bioinformatics tools can be used in bacterial genomics. The an
 - genome assembly (using SPAdes for Illumina reads, Dragonflye for Oxford Nanopore reads, or hybrid tools such as Unicycler to deal with both Illumina and Nanopre reads). Genome assembly step is usually performed directly on several paired-end files as follows:
   
   `for i in $(ls *.fastq | rev | cut -c 10- | rev | uniq); do spades.py -1 ${i}_R1.fastq -2 ${i}_R2.fastq -t 6 --cov-cutoff auto --careful -o $i; done`
+
+  `dragonflye --reads my-ont.fastq.gz --outdir dragonflye --gsize 5000000`
 -  
