@@ -12,5 +12,7 @@ This directory is subdivided into several sections (folders) reflecting some of 
   - **Docker** (folder containing information on using Docker)
   - **Galaxy_Wrapper** (folder containing information on setting up a tool on Galaxy)
   - **Nanopore_sequencing** (folder containing examples of tools used for Nanopore sequencing, in particular MinION)
+  - **Other_examples** (examples for specific bioinformatics analyses such as bacterial genomics, etc.)
+  - **Phylogeny** (examples to perform some phylogenetic/phylogenomic analyses)
   - **SLURM** (folder containing information on using SLURM)
   - **Virtual_Machine** (folder containing information on setting up a virtual machine)
