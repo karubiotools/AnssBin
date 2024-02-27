@@ -1,5 +1,6 @@
 # Examples of bioinformatics analyses
 This page offers further examples for bioinformatics analysis. Examples include but are not limited to bacterial genomics.
+The tools mentioned in the following examples can be installed via conda/bioconda or other means (apt-get, homebrew, from source, etc.).
 
 ## Bacterial genomics
 A wide variety of bioinformatics tools can be used in bacterial genomics. The analysis steps commonly performed in the lab are:
