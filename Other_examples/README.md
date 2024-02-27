@@ -11,4 +11,7 @@ A wide variety of bioinformatics tools can be used in bacterial genomics. The an
   `for i in $(ls *.fastq | rev | cut -c 10- | rev | uniq); do spades.py -1 ${i}_R1.fastq -2 ${i}_R2.fastq -t 6 --cov-cutoff auto --careful -o $i; done`
 
   `dragonflye --reads my-ont.fastq.gz --outdir dragonflye --gsize 5000000`
--  
+- checking genome assembly quality using QUAST (once the assmebled genome files are available):
+
+  `for i in *.fasta; do quast -o $i.QUAST_RESULT -r RefSequenceEC.fasta -t 16  $i ; done`
+- 
