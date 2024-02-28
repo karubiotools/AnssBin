@@ -1,8 +1,8 @@
 # Examples of bioinformatics analyses
 This page offers further examples for bioinformatics analysis. Examples include but are not limited to bacterial genomics.
-The tools mentioned in the following examples can be installed via conda/bioconda or other means (apt-get, homebrew, from source, etc.).
+The tools mentioned in the following examples can be installed via conda/bioconda or other means (apt-get, homebrew, from source, etc.). Please note that the above-mentioned tools can also be used via Galaxy (e.g. [Galaxy Europe](https://usegalaxy.eu/), [Galaxy Pasteur](https://galaxy.pasteur.fr/), [Galaxy KaruBioNet1](http://calamar.univ-ag.fr/c3i/galaxy_karubionet.html), [Galaxy KaruBioNet2](https://exocet1.univ-antilles.fr:8082/))
 
-## Bacterial genomics
+## Bacterial genomics (some examples)
 A wide variety of bioinformatics tools can be used in bacterial genomics. The analysis steps commonly performed in the lab are:
 - checking sequence reads quality (usually using [FastQC](https://github.com/s-andrews/FastQC)):
   
