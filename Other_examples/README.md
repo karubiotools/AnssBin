@@ -30,4 +30,5 @@ A wide variety of bioinformatics tools can be used in bacterial genomics. The an
   `abricate --summary *.vfdb.tab > Summary_vfdb.xls`
 
   `abricate --summary *.plasmidfinder.tab > Summary_plasmidfinder.xls`
+- [Prokka](https://github.com/tseemann/prokka) tool can then be used for prokaryotic genome annotation
   
