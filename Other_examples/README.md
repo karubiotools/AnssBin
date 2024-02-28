@@ -14,7 +14,7 @@ A wide variety of bioinformatics tools can be used in bacterial genomics. The an
   `dragonflye --reads my-ont.fastq.gz --outdir dragonflye --gsize 5000000`
 
   `unicycler -1 reads_R1.fastq -2 reads_R2.fastq -l ont_read.fastq -o resultUnicyler`
-- checking genome assembly quality using QUAST (once the assmebled genome files are available):
+- checking genome assembly quality using [QUAST](https://github.com/ablab/quast) (once the assmebled genome files are available):
 
   `for i in *.fasta; do quast -o $i.QUAST_RESULT -r referenceSequence.fasta -t 16  $i ; done`
 - [ABRicate](https://github.com/tseemann/abricate) tool can be used to search for resistance, virulence, and plasmid genes:
