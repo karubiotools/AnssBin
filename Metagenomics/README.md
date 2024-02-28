@@ -5,7 +5,7 @@ Metagenomics analyses are usually performed following two approaches:
 
 ## Metabarcoding
 Metabarcoding analyses are now widely used in bioinformatics. Several tools and pipelines can be used to carry out this kind of analysis:
-- [SAMBA](https://ifremer-bioinformatics.github.io/SAMBAExampleReport/SAMBA_report.html)
+- [SAMBA](https://gitlab.ifremer.fr/bioinfo/workflows/samba)
 - [Qiime2](https://qiime2.org/)
 - [SHAMAN](https://github.com/aghozlane/shaman)
 - [FROGS](http://sepsis-omics.github.io/tutorials/modules/frogs/)
