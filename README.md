@@ -17,5 +17,6 @@ This directory is subdivided into several sections (folders) reflecting some of 
   - **Nanopore_sequencing** (folder containing examples of tools used for Nanopore sequencing, in particular MinION)
   - **Other_examples** (examples for specific bioinformatics analyses such as bacterial genomics, etc.)
   - **Phylogeny** (examples to perform some phylogenetic/phylogenomic analyses)
+  - **Singularity** (examples to install and use Singularity)
   - **SLURM** (folder containing information on using SLURM)
   - **Virtual_Machine** (folder containing information on setting up a virtual machine)
