@@ -43,7 +43,7 @@ singularity exec snippy_latest.sif snippy --help
 
 ---
 
-## 3. Running Snippy for a Simple Analysis
+## 3. Running Snippy for a simple Variant Calling Analysis
 
 ### Prepare Input Files
 You need a reference genome and a sequencing file in FASTQ format. Example:
