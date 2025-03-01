@@ -48,13 +48,14 @@ singularity exec snippy_latest.sif snippy --help
 ### Prepare Input Files
 You need a reference genome and a sequencing file in FASTQ format. Example:
 ```bash
-wget -O reference.fasta https://example.com/reference.fasta
-wget -O reads.fastq.gz https://example.com/reads.fastq.gz
+wget -O reference.gbk https://zenodo.org/record/582600/files/wildtype.gbk
+wget -O mutant_R1.fastq https://zenodo.org/record/582600/files/mutant_R1.fastq
+wget -O mutant_R2.fastq https://zenodo.org/record/582600/files/mutant_R2.fastq
 ```
 
 ### Run Snippy in Singularity
 ```bash
-singularity exec snippy_latest.sif snippy --ref reference.fasta --R1 reads.fastq.gz --outdir snippy_results
+singularity exec snippy_latest.sif snippy --ref reference.gbk --R1 mutant_R1.fastq --R2 mutant_R2.fastq --outdir snippy_results
 ```
 
 ### View Snippy Output
