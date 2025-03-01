@@ -20,3 +20,4 @@ This directory is subdivided into several sections (folders) reflecting some of 
   - **Singularity** (examples to install and use Singularity)
   - **SLURM** (folder containing information on using SLURM)
   - **Virtual_Machine** (folder containing information on setting up a virtual machine)
+  - **Workflow systems** (folder containing examples of Workflow systems like SnakeMake and NextFlow) 
