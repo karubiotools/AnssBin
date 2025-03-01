@@ -12,6 +12,7 @@ This directory is subdivided into several sections (folders) reflecting some of 
   - **Conda** (folder containing Conda/Bioconda usage example)
   - **Docker** (folder containing information on using Docker)
   - **Galaxy_Wrapper** (folder containing information on setting up a tool on Galaxy)
+  - **Jupyter_Notebook** (folder containing examples on how to use Jupyter Notebook)
   - **Metagenomics** (folder containing examples of tools and pipelines for metagenomics analyses)
   - **Nanopore_sequencing** (folder containing examples of tools used for Nanopore sequencing, in particular MinION)
   - **Other_examples** (examples for specific bioinformatics analyses such as bacterial genomics, etc.)
