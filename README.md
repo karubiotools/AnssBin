@@ -6,7 +6,7 @@
 The current repository provides access to some examples/tutorials (in English and/or French) that can be used as pedagogical tools to promote bioinformatics/biostatistics analysis.
 
 This directory is subdivided into several sections (folders) reflecting some of the main themes of our study. These sections are organized as follows:
-  - **AMR Tools** (folder containing information on tools used for antimicrobial resistance detection)
+  - **AMR_Tools** (folder containing information on tools used for antimicrobial resistance detection)
   - **Bash** (folder containing information on Linux/Unix command lines)
   - **BLAST** (folder containing BLAST software usage examples)
   - **Conda** (folder containing Conda/Bioconda usage example)
@@ -20,4 +20,4 @@ This directory is subdivided into several sections (folders) reflecting some of 
   - **Singularity** (examples to install and use Singularity)
   - **SLURM** (folder containing information on using SLURM)
   - **Virtual_Machine** (folder containing information on setting up a virtual machine)
-  - **Workflow systems** (folder containing examples of Workflow systems like SnakeMake and NextFlow) 
+  - **Workflow_systems** (folder containing examples of Workflow systems like SnakeMake and NextFlow) 
