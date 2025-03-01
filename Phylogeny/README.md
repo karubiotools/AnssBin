@@ -104,4 +104,4 @@ Each of these phylogenetic tools has strengths in speed and accuracy. Choose bas
 - **IQ-TREE**: Advanced model selection and statistics.
 - **FastTree**: Fastest for large alignments.
 
-Keep practicing to optimize your analyses!
+Further software tools exist to perform phylogenetic analysis using directly distance matrices or data tables.
