@@ -9,3 +9,5 @@ Metabarcoding analyses are now widely used in bioinformatics. Several tools and 
 - [Qiime2](https://qiime2.org/)
 - [SHAMAN](https://github.com/aghozlane/shaman)
 - [FROGS](http://sepsis-omics.github.io/tutorials/modules/frogs/)
+
+Finally, an easy User Guide is provided in this [page](Metabarcoding_analysis_guide.md)
