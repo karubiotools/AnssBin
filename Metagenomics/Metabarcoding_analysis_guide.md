@@ -128,4 +128,4 @@ plot(nmds, type="t")
 ---
 
 ## Conclusion
-This guide provides an easy-to-follow workflow for metabarcoding analysis using QIIME2, DADA2, phyloseq, and vegan. Customize parameters based on your dataset and research needs!
+This guide provides an easy-to-follow workflow for metabarcoding analysis using QIIME2, DADA2, phyloseq, and vegan. Users can easily use these scripts in function of their research needs.
