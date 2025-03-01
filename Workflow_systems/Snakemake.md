@@ -1,4 +1,4 @@
-# Snakemake and SPAdes Guide
+# Snakemake Guide (with SPAdes example)
 
 ## 1. Installing Snakemake
 
