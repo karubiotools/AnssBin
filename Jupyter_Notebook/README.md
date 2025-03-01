@@ -47,23 +47,27 @@ print(data.head())  # View first few rows
 
 ### Install Required Libraries
 ```bash
-pip install matplotlib scikit-learn
+pip install matplotlib scikit-learn seaborn
 ```
 
-### PCA Implementation in Jupyter Notebook
+### PCA Implementation in Jupyter Notebook with Class Visualization
 ```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 # Load data
 data = pd.read_csv("data.csv")
 
-# Standardize the data
+# Extract class labels
+labels = data['Class']
+
+# Standardize the data (excluding Sample and Class columns)
 scaler = StandardScaler()
-data_scaled = scaler.fit_transform(data.iloc[:, 1:])  # Exclude non-numeric columns
+data_scaled = scaler.fit_transform(data.iloc[:, 1:-1])
 
 # Perform PCA
 pca = PCA(n_components=2)
@@ -71,13 +75,15 @@ principal_components = pca.fit_transform(data_scaled)
 
 # Create DataFrame
 pca_df = pd.DataFrame(data=principal_components, columns=["PC1", "PC2"])
+pca_df['Class'] = labels
 
-# Plot PCA
+# Plot PCA with Class Information
 plt.figure(figsize=(8, 6))
-plt.scatter(pca_df["PC1"], pca_df["PC2"], alpha=0.7)
+sns.scatterplot(x="PC1", y="PC2", hue="Class", data=pca_df, palette="Set1", s=100, alpha=0.7)
 plt.xlabel("Principal Component 1")
 plt.ylabel("Principal Component 2")
-plt.title("PCA Plot")
+plt.title("PCA Plot with Class Labels")
+plt.legend(title="Class")
 plt.show()
 ```
 
@@ -110,5 +116,4 @@ plt.show()
 ---
 
 ## Conclusion
-This guide covers installing Jupyter Notebook, loading CSV data, performing PCA, and creating bar plots. 
-Further analyses could be performed using this software tool.
+This guide covers installing Jupyter Notebook, loading CSV data, performing PCA with class visualization, and creating bar plots. Further analyses could be performed using this software tool.
