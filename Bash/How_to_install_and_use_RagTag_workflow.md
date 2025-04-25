@@ -18,11 +18,11 @@ RagTag requires Python ≥3.6 and can be installed using `conda` (recommended) o
 ```bash
 conda create -n ragtag-env -c bioconda -c conda-forge ragtag minimap2 samtools
 conda activate ragtag-env
-
+```
 ### Option 2: Using pip
 ```bash
 pip install git+https://github.com/malonge/RagTag.git
-
+```
 ---
 
 ## Use RagTag workflow (bash script)
@@ -30,8 +30,8 @@ pip install git+https://github.com/malonge/RagTag.git
 Make the bash script executable with the "chmod" command:
 ```bash
 chmod +x ragtag_workflow.sh
-
+```
 Run the workflow script using both reference and query FASTA files:
 ```bash
 ./ragtag_workflow.sh reference.fasta query.fasta
-
+```
