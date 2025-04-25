@@ -1,4 +1,4 @@
-# How to install and use RagTag workflow
+# How to install and use RagTag workflow (bash script)
 
 This guide will help you install **RagTag** and run a basic pipeline (`correction → scaffolding → patching`) using a provided shell script.
 
